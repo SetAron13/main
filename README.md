@@ -14,12 +14,8 @@
 <a href="dog.html">Собака</a>
     </nav>
 	</center>
-</header>
 <big>
 <center>
 <h1>Животные</h1>
 <p>На данном сайте мы расскажем о животных</p>
-</big>
 </center>
-</body>
-</html>
