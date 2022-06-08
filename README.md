@@ -1,5 +1,4 @@
 # main
-<!DOCTYPE html>
 <html lang="ru">
 <head>
 <title>Животные</title>
