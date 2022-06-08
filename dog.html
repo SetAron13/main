@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<title>Животные</title>
+<style type="text/css">
+header{
+ width: 100%;
+ background: #D8E3AB;
+}
+a{
+text-decoration: none;
+}
+body{
+background-color:#6aaf30;
+background-image: url("https://img1.badfon.ru/original/6000x4000/6/ce/vetka-listya-leto-zelen.jpg");
+font-size: 20px;
+margin:0;
+padding:0;
+}
+h1{
+font-size: 45px;
+}
+p{
+text-indent: 25px;
+}
+.wrap {
+ height: 350px;
+ margin: 50px auto 0;
+ position: relative;
+ width: 500px;
+}
+.wrap > input {
+ display: none;
+}
+.slider {
+ background-color: #333;
+ height: inherit;
+ overflow: hidden;
+ position: relative;
+ width: inherit;
+}
+.slides {
+ height: inherit;
+ opacity: 0;
+ position: absolute;
+ width: inherit;
+ z-index: 0;
+}
+.img1 { background-image: url(монти1.jpg); }
+.img2 { background-image: url(монти2.jpg); }
+.img3 { background-image: url(бобренок.jpg); }
+.wrap .control {
+ position: absolute;
+ margin-left: -50px;
+ left: 50%;
+}
+.wrap label {
+ cursor: pointer;
+ display: inline-block;
+ height: 8px;
+ margin: 10px;
+ position: relative;
+ width: 8px;
+ border-radius: 20%;
+}
+.wrap label:after {
+ border: 2px solid green;
+ content: " ";
+ display: block;
+ height: 12px;
+ left: -4px;
+ position: absolute;
+ top: -4px;
+ width: 12px;
+ border-radius: 20%;
+}
+#point1:checked ~ .control label:nth-of-type(1),
+#point2:checked ~ .control label:nth-of-type(2),
+#point3:checked ~ .control label:nth-of-type(3) {
+ background: green;
+}
+#point1:checked ~ .slider > .img1,
+#point2:checked ~ .slider > .img2,
+#point3:checked ~ .slider > .img3 {
+ opacity: 1;
+ z-index: 1;
+}
+footer{
+background:gray;
+}
+</style>
+</head>
+<body>
+<header style="margin:0">
+<img src="https://pcvector.ru/800/600/https/vizitka.printex.in.ua/wp-content/uploads/2018/04/printex_psyhology_logo2.jpg" align="left" wight="90" height="80">
+  <h1 style="margin-left:105px;">Животные<h1>
+  <p></p>
+<nav id="menu"> <!-- Меню -->
+<center>
+    <nav>
+<a style="margin-right:50px" href="main.html">Главная</a>
+<a style="margin-right:50px" href ="cat.html">Кошка</a>
+<a href="bober.html">Бобер</a>
+    </nav>
+	</center>
+</header>
+<main>
+<article>
+<section>
+<h1><center>Собака</center></h1>
+<img src="https://oir.mobi/uploads/posts/2021-04/1619089130_43-oir_mobi-p-srednie-porodi-sobak-zhivotnie-krasivo-fot-47.jpg"align="left"wight="400" height="300" alt="Корги" "margin-left:500px;">
+<p style="margin-left:245px;">Собака-(Canis familiaris), одомашненное млекопитающее семейства псовых (Canidae) отряда хищных, одно из самых популярных домашних животных.
+<br> Вероятно, человек приручил собаку не менее 14 000 лет назад.</p>
+<h2 style="margin-left:625px;">Факты о собаках</h2>
+<ul style="margin-left:230px;">
+<li><em>Собаки крутятся на месте прежде, чем лечь на землю, ввиду инстинкта.</em></li>
+<li><em>Щенки рождаются слепыми и глухими.</em></li>
+<li><em>Собаки понимают силу «щенячьих глаз».</em></li>
+<li><em>У собак исключительный нюх.</em></li>
+<li><em>Собаки могут ревновать.</em></li>
+</ul>
+</section>
+<section>
+<img src="https://all-aforizmy.ru/wp-content/uploads/2022/02/volk.jpg" align="right" wight="400" height="300">
+<p style="margin-left:245px;">Предок собаки – волк. Различия между ним и некоторыми породами столь малы, что этих животных легко спутать.
+<br>Вероятно, волки держались поблизости от древних людей и подкармливались остатками их охотничьих трофеев.
+<br>Вместе с тем, возможно, и человек пользовался тушами копытных, убитых волками, до того как хищники успевали их полностью съесть.</p>
+</section>
+</article>
+<article>
+<section>
+<h1 style="margin-left:655px;">Наши собаки</h1>
+<h2 style="margin-left:655px;">Монти (Монблан)</h2>
+<div class = "wrap">
+<input type="radio" name="slides" id="point1" checked>
+<input type="radio" name="slides" id="point2">
+<input type="radio" name="slides" id="point3">
+<div class="slider">
+  <div class="slides img1"></div>
+  <div class="slides img2"></div>
+  <div class="slides img3"></div>
+</div>
+<div class="control">
+ <label for="point1"></label>
+ <label for="point2"></label>
+ <label for="point3"></label>
+</div>
+</div>
+<h3 style="margin-left:240px;">Особенности:</h3>
+<ul style="margin-left:230px;">
+<li><em>Грызет книги.</em></li>
+<li><em>Любит играть с бутылками.</em></li>
+<li><em>Обожает есть хлебушек.</em></li>
+<li><em>Когда домой приходит Дима старший, то обязательно нужно поболтать.</em></li>
+<li><em>Зимой любит есть снег.</em></li>
+</ul>
+</section>
+<section>
+<h2 style="margin-left:655px;""padding-bottom:765px;">Несса(Ванесса)</h2>
+<ul style="margin-left:230px;">
+<li><em>Грызет тапки.</em></li>
+<li><em>Любит играть с котенком.</em></li>
+<li><em>Обожает ломать мусорку.</em></li>
+<li><em>Не любит гулять.</em></li>
+</ul>
+</section>
+</article>
+</main>
+<footer>
+<p>Жарова CORP. Все права защищены. 2022</p>
+</footer></big>
+</body>
+</html>
+
+
+
